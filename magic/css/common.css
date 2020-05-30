@@ -1,5 +1,5 @@
-
-body{ width:100%; overflow-x:hidden; font-family:'微软雅黑','微软雅黑 Regular','黑体','黑体 Regular','宋体 Regular','宋体','Arial Regular','Arial'; }
+html{ min-width: 1230px; }
+body{ width:100%; min-width: 1230px; position: relative; overflow-x:hidden; font-family:'微软雅黑','微软雅黑 Regular','黑体','黑体 Regular','宋体 Regular','宋体','Arial Regular','Arial'; }
 a{ color:#333; }
 a:hover{ color:#0658b3; }
 .wrap{ width:1230px; margin:0 auto; }
