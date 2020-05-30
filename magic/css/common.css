@@ -182,4 +182,4 @@ a:hover{ color:#0658b3; }
 .foot .nr{ font-size: 14px; color:#fff; line-height: 26px; padding:4px 0 8px; margin:0 0 0 35px; padding:0 0 0 30px; border-left:1px solid #6c6c6c; }
 .footEwm{ width:92px; height:92px; overflow: hidden; }
 .footEwm img{ width:100%; display:block; }
-.comTop{ width:40px; height:40px; right:50%; position: fixed; bottom:30px; margin-right: -680px; background:url(../images/top.png) no-repeat center / cover; }
+.comTop{ width:40px; height:40px; right:50%; position: fixed; display:none; bottom:30px; margin-right: -680px; background:url(../images/top.png) no-repeat center / cover; }
