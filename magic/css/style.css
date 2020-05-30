@@ -50,6 +50,7 @@ body{ background:url(../images/bg.jpg); }
 .ohhyCon li .li_l{ font-size:18px; }
 .ohhyCon li .li_r a{ display:inline-block; margin:0 10px 0 0; text-align: center; width:143px; height:28px; text-align:center; border-radius: 5px; vertical-align: middle; line-height: 28px; background:#fff; box-shadow:0 0 10px rgba(7,1,2,0.16); }
 .ohhyCon li .li_r a.on{ background:#195ec4; color:#fff; }
+.ohhyCon li .li_r a.on:hover{ color:#fff; }
 .ohhyCon li .li_r a:hover{ color:#333; }
 .ohhyCon li .li_r .Wdate{ width:174px !important; font-size: 16px; height:30px !important; padding:0 10px; margin:6px 0 0; background:#fff url(../images/dataIcon.png) no-repeat 164px center; }
 
@@ -101,4 +102,8 @@ body{ background:url(../images/bg.jpg); }
 .page em{ padding:0 5px; }
 .newsLeft .page{ padding:18px 0 0; }
 
-
+/*新闻详情*/
+.xqTtitle{ border-bottom: 1px solid #b8b8b8; padding:0 0 15px; }
+.xqTtitle h3{ font-size: 26px; color:#333; line-height: 60px; font-weight: normal; }
+.newsXqCon{ padding:26px 0 50px; line-height: 24px; color:#707070; font-size: 16px; }
+.newsXqCon img{ display:block; max-width:100%; margin:0 auto; }

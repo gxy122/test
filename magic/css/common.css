@@ -1,5 +1,5 @@
 
-body{ font-family:'微软雅黑','微软雅黑 Regular','黑体','黑体 Regular','宋体 Regular','宋体','Arial Regular','Arial'; }
+body{ width:100%; overflow-x:hidden; font-family:'微软雅黑','微软雅黑 Regular','黑体','黑体 Regular','宋体 Regular','宋体','Arial Regular','Arial'; }
 a{ color:#333; }
 a:hover{ color:#0658b3; }
 .wrap{ width:1230px; margin:0 auto; }
@@ -30,9 +30,12 @@ a:hover{ color:#0658b3; }
 .nav ol li:hover a{ text-decoration: underline; }
 
 /*banner*/
+.banner{ position: relative; width:100%; }
 .banner .tempWrap{ width:100% !important; }
 .banner img{ width:100%; display: block; }
-
+.banner .hd{ width:100%; left:0; bottom:50px; text-align: center; position: absolute; z-index: 5; }
+.banner .hd li{ width:10px; height:10px; margin:0 5px; cursor:pointer; display:inline-block; border:3px solid #fff; border-radius: 50%; }
+.banner .hd li.on{ border-color:#0d5eb9; }
 
 /*index1*/
 .index1{ width:100%; padding:75px 0 90px; background:url(../images/index1Bg.jpg) no-repeat center / cover; background-attachment:fixed; }
@@ -56,10 +59,10 @@ a:hover{ color:#0658b3; }
 .indexNewsConL_zhu .more:hover{ color:#0658b3; }
 .indexNewsConL ul{ padding:18px 0 0; }
 .indexNewsConL li{ padding: 0 0 0 30px; font-size: 16px; position: relative; height:30px; line-height: 30px; }
-.indexNewsConL li::before{ width:10px; height:10px; content:""; left:3px; top:50%; position: absolute; margin-top: -5px; background:url(../images/yuan.png) no-repeat center / cover; }
+.indexNewsConL li::before{ width:12px; height:12px; content:""; left:3px; top:50%; position: absolute; margin-top: -5px; background:url(../images/yuan.png) no-repeat center / cover; }
+.indexNewsConL li:hover::before{ background-image: url(../images/yuan1.png); }
 .indexNewsConL li a{ width:460px; }
 .indexNewsConL li span{ font-size: 14px; color:#707070; font-family: 'Arial Regular','Arial'; }
-
 .indexNewsConR { width:616px; height:280px; overflow:hidden; }
 .indexNewsConR li{ width:296px; height:270px; margin:0 0 0 12px; background:#fff; box-shadow: 0 0 10px rgba(7,1,2,0.18); }
 .indexNewsConR li .text{ padding:13px 26px 0; }
@@ -156,15 +159,25 @@ a:hover{ color:#0658b3; }
 .teamManage li{ padding:22px 38px 22px 83px; margin:0 0 5px; height:66px; line-height: 22px; border-left: 4px solid #dcaf41; background:#04569c url(../images/teamIcon.png) no-repeat 28px center; }
 .teamManage li p{ height:66px; overflow: hidden; padding:0 0 0 20px; font-size: 14px; border-left:1px solid #689ac4; color:#fff; }
 
+/*友情链接*/
+.index5{ padding:54px 0 50px; background:url(../images/bg.jpg); }
+.index5 .index1Title::after{ display:none; }
+.index5 ul{ padding:15px 0 0; }
+.index5 li{ width:230px; position: relative; height:82px; margin:0 20px 20px 0; overflow:hidden; box-shadow:0 0 13px rgba(7,1,2,0.18); }
+.index5 li img{ display:block; width:100%; }
+.index5 li:nth-child(5n){ margin-right: 0; }
+.index5 li h3{ width:100%; height:82px; line-height: 82px; font-size: 16px; font-weight: normal; top:0; left:0; position: absolute; background:#136ed4; color:#fff; text-align: center; transform:scale(0); transition:all 0.5s; }
+.index5 li:hover h3{ transform:scale(1); }
 /*底部*/
 .footer{ width:100%; background:url(../images/footerBg.jpg); }
 .footer .line{ font-size: 16px; color:#fff; height:52px; line-height: 52px; border-bottom: 1px solid #676767; }
 .footer .line a{ color:#fff; font-size: 14px; margin:0 20px 0 0; }
 .footer .line a:hover{ color:#fff; text-decoration: underline; }
 
-.foot{ padding:32px 0; }
+.foot{ padding:35px 0 30px; }
 .footLogo{ width:475px; height:39px; overflow: hidden; }
 .footLogo img{ width:100%; display:block; }
 .foot .nr{ font-size: 14px; color:#fff; line-height: 26px; padding:4px 0 8px; margin:0 0 0 35px; padding:0 0 0 30px; border-left:1px solid #6c6c6c; }
 .footEwm{ width:92px; height:92px; overflow: hidden; }
 .footEwm img{ width:100%; display:block; }
+.comTop{ width:40px; height:40px; right:50%; position: fixed; bottom:30px; margin-right: -680px; background:url(../images/top.png) no-repeat center / cover; }

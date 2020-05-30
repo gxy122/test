@@ -58,14 +58,14 @@
                 <a href="##">团队管理</a>
             </li>
             <li class="marR0">
-                <a href="##">数据服务</a>
+                <a href="coreMembers.html">数据服++-务</a>
             </li>
         </ul>
     </div>
 
     <!-- banner -->
     <div id="slideBox" class="slideBox banner">
-        <div class="bd">
+        <div class="bd bannerBd">
             <ul>
                 <li><a href="##"><img src="magic/images/banner.jpg" /></a></li>
                 <li><a href="##"><img src="magic/images/banner.jpg" /></a></li>
@@ -73,9 +73,13 @@
             </ul>
         </div>
 
-        <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
-        <a class="prev" href="javascript:void(0)"></a>
-        <a class="next" href="javascript:void(0)"></a>
+        <div class="hd bannerHd">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
 
     </div>
 
@@ -195,7 +199,7 @@
     <!-- 第二块 -->
     <div class="index2">
         <div class="wrap">
-            <div class="index1Title">
+            <div class="index1Title cf">
                 <h2 class="fl">
                     通知公告
                     <span>announcement</span>
@@ -335,7 +339,7 @@
     <div class="index4">
         <div class="wrap cf">
             <div class="researchTeam fl">
-                <div class="index1Title">
+                <div class="index1Title cf">
                     <h2 class="fl">
                         研究团队
                         <span>research team</span>
@@ -428,19 +432,83 @@
         </div>
     </div>
 
-    <!-- 底部 -->
-    <div class="footer">                               
+    <div class="index5">
         <div class="wrap">
-            <div class="line">
-                <span>友情链接：</span>
-                <a href="##">中国科学院</a>
-                <a href="##">中国科学院寒区旱区环境与工程研究所</a>
-                <a href="##">中国测绘网</a>
-                <a href="##">南方测绘网</a>
-                <a href="##">北京大学</a>
-                <a href="##">清华大学</a>
-                <a href="##">上海交通大学</a>
+            <div class="index1Title cf">
+                <h2 class="fl">
+                    友情链接
+                    <span>Links</span>
+                </h2>
             </div>
+            <ul class="cf">
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo1.jpg" alt="" />
+                        <h3>中山大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo2.jpg" alt="" />
+                        <h3>国防科技大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo1.jpg" alt="" />
+                        <h3>中山大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo2.jpg" alt="" />
+                        <h3>国防科技大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo1.jpg" alt="" />
+                        <h3>中山大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo2.jpg" alt="" />
+                        <h3>国防科技大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo1.jpg" alt="" />
+                        <h3>中山大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo2.jpg" alt="" />
+                        <h3>国防科技大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo1.jpg" alt="" />
+                        <h3>中山大学</h3>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="##">
+                        <img src="magic/images/lineLogo2.jpg" alt="" />
+                        <h3>国防科技大学</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <a href="javascript:;" class="comTop"></a>
+    <div class="footer">
+        <div class="wrap">
             <div class="foot cf">
                 <div class="left fl cf">
                     <h1 class="footLogo fl">
@@ -463,8 +531,8 @@
     <script type="text/javascript" src="magic/js/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="magic/js/index.js"></script>
     <script type="text/javascript">
-        jQuery(".slideBox").slide({
-            mainCell:".bd ul",
+        jQuery(".banner").slide({
+            mainCell:".bannerBd ul",
             effect:"leftLoop",
             autoPlay:true
         });
