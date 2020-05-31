@@ -620,7 +620,9 @@
         }
     })
     var ggSlide = new Swiper('.ggSlide', {
-        autoplay: true,//可选选项，自动滑动
+        autoplay: {
+            delay:6000
+        },//可选选项，自动滑动
         slidesPerView : 3,//一行显示2块
         slidesPerGroup : 3,//滚动一次走1块
         loop:true,//循环滚动
