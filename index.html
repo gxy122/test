@@ -293,6 +293,22 @@
                                     <img src="magic/images/add.png" alt="" />
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="liBox">
+                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
+                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
+                                    <span>2020.02.06</span>
+                                    <img src="magic/images/add.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="liBox">
+                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
+                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
+                                    <span>2020.02.06</span>
+                                    <img src="magic/images/add.png" alt="" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="index2Pagination">
@@ -604,13 +620,13 @@
         }
     })
     var ggSlide = new Swiper('.ggSlide', {
-        autoplay: false,//可选选项，自动滑动
+        autoplay: true,//可选选项，自动滑动
         slidesPerView : 3,//一行显示2块
-        slidesPerGroup : 1,//滚动一次走1块
+        slidesPerGroup : 3,//滚动一次走1块
         loop:true,//循环滚动
-        // autoplay: {
-        //     disableOnInteraction: false,//触碰后自动切换也不会停止
-        // }, 
+        autoplay: {
+            disableOnInteraction: false,//触碰后自动切换也不会停止
+        }, 
         pagination: {  //分页器
             el: '.ggPagination',
             clickable :true, //点击小点跳转对应图片
