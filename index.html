@@ -1,8 +1,9 @@
-
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="magic/css/swiper.min.css" />
     <link rel="stylesheet" type="text/css" href="magic/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="magic/css/default.css" />
     <link rel="stylesheet" type="text/css" href="magic/css/common.css" />
@@ -64,12 +65,70 @@
     </div>
 
     <!-- banner -->
-    <div id="slideBox" class="slideBox banner">
+
+
+    <div class="swiper-container banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="##">
+                    <img src="magic/images/banner.jpg" alt="" />
+                    <div class="text">
+                        <h3 class="bannerLeft"><img src="magic/images/bannerText1.png" alt="" /></h3>
+                        <h4 class="bannerRight"><img src="magic/images/bannerText2.png" alt="" /></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##">
+                    <img src="magic/images/banner.jpg" alt="" />
+                    <div class="text">
+                        <h3 class="bannerTop"><img src="magic/images/bannerText1.png" alt="" /></h3>
+                        <h4 class="bannerBottom"><img src="magic/images/bannerText2.png" alt="" /></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##">
+                    <img src="magic/images/banner.jpg" alt="" />
+                    <div class="text">
+                        <h3 class="bannerLeft"><img src="magic/images/bannerText1.png" alt="" /></h3>
+                        <h4 class="bannerRight"><img src="magic/images/bannerText2.png" alt="" /></h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-pagination bannerPagination"></div> 
+    </div>
+    <!-- <div id="slideBox" class="slideBox banner">
         <div class="bd bannerBd">
             <ul>
-                <li><a href="##"><img src="magic/images/banner.jpg" /></a></li>
-                <li><a href="##"><img src="magic/images/banner.jpg" /></a></li>
-                <li><a href="##"><img src="magic/images/banner.jpg" /></a></li>
+                <li>
+                    <a href="##">
+                        <img src="magic/images/banner.jpg" />
+                        <div class="text">
+                            <h3 class="bannerBottom">地球系统模式创新团队</h3>
+                            <h4 class="bannerBottom">Earth system model innovation team</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="##">
+                        <img src="magic/images/banner.jpg" />
+                        <div class="text">
+                            <h3 class="bannerLeft">地球系统模式创新团队</h3>
+                            <h4 class="bannerRight">Earth system model innovation team</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="##">
+                        <img src="magic/images/banner.jpg" />
+                        <div class="text">
+                            <h3 class="bannerTop">地球系统模式创新团队</h3>
+                            <h4 class="bannerBottom">Earth system model innovation team</h4>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </div>
 
@@ -81,13 +140,13 @@
             </ul>
         </div>
 
-    </div>
+    </div> -->
 
     <!-- 第一块 -->
-    <div class="index1">
+    <div class="index1 row">
         <div class="wrap">
             <div class="indexNews">
-                <div class="index1Title cf">
+                <div class="index1Title cf" data-scroll-reveal="enter top move 80px over 0.8s after 0.5s">
                     <h2 class="fl">
                         最新动态
                         <span>Latest News</span>
@@ -96,7 +155,7 @@
                 </div>
                 <div class="indexNewsCon cf">
                     <div class="indexNewsConL fl">
-                        <div class="indexNewsConL_zhu">
+                        <div class="indexNewsConL_zhu" data-scroll-reveal="enter left move 80px over 0.8s after 0.5s">
                             <div class="time">
                                 <h6>06</h6>
                                 <p>2020.02</p>
@@ -108,26 +167,26 @@
                             <a href="##" class="more">Read more +</a>
                         </div>
                         <ul>
-                            <li class="cf">
+                            <li class="cf" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.3s">
                                 <a href="##" class="fl wzyc">我国科学家研发出新一代地球系统模式</a>
                                 <span class="fr">2020.05.16</span>
                             </li>
-                            <li class="cf">
+                            <li class="cf" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.5s">
                                 <a href="##" class="fl wzyc">我国将助力构建无缝隙地球系统预报</a>
                                 <span class="fr">2020.05.12</span>
                             </li>
-                            <li class="cf">
+                            <li class="cf" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.7s">
                                 <a href="##" class="fl wzyc">中国首次发布“探索地球系统”</a>
                                 <span class="fr">2020.05.08</span>
                             </li>
-                            <li class="cf">
+                            <li class="cf" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.9s">
                                 <a href="##" class="fl wzyc">关于开展地球系统模式耦合（CAM-FVCOM）开发的动员大会</a>
                                 <span class="fr">2020.05.06</span>
                             </li>
                         </ul>
                     </div>
                     <ul class="indexNewsConR cf fr">
-                        <li class="fl">
+                        <li class="fl" data-scroll-reveal="enter right move 80px over 0.8s after 0.3s">
                             <a href="##">
                                 <div class="pic">
                                     <img src="magic/images/index_03.jpg" alt="" />
@@ -138,7 +197,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="fl">
+                        <li class="fl" data-scroll-reveal="enter right move 80px over 0.8s after 0.5s">
                             <a href="##">
                                 <div class="pic">
                                     <img src="magic/images/index_05.jpg" alt="" />
@@ -153,19 +212,19 @@
                 </div>
             </div>
             <div class="indexLecture cf">
-                <div class="title fl">
+                <div class="title fl" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.3s">
                     <img src="magic/images/index_10.jpg" alt="" />
                 </div>
                 <div class="indexLectureCon fr">
                     <div class="box">
-                        <div class="index1Title cf">
+                        <div class="index1Title cf"  data-scroll-reveal="enter left over 0.8s after 0.3s">
                             <h2 class="fl">
                                 学术讲座
                                 <span>academic talk</span>
                             </h2>
                             <a href="##" class="fr">View more+</a>
                         </div>
-                        <div class="text">
+                        <div class="text" data-scroll-reveal="enter bottom over 0.8s after 0.5s">
                             <h2 class="wzyc">报告题目：5月26日陈长胜教授学术报告通知</h2>
                             <div class="nr">
                                 <span>报告人：陈长胜教授</span>
@@ -174,20 +233,20 @@
                             </div>
                         </div>
                         <ul class="cf">
-                            <li class="fl">
+                            <li class="fl" data-scroll-reveal="enter bottom over 0.8s after 0.7s">
                                 <h3 class="wzyc2"><a href="##">我国科学家研发出新一代地球系统模式</a></h3>
                                 <p>2020.05.16</p>
-                                <img class="go" src="magic/images/go.png" alt="" />
+                                <span class="go"></span>
                             </li>
-                            <li class="fl">
+                            <li class="fl" data-scroll-reveal="enter bottom over 0.8s after 0.9s">
                                 <h3 class="wzyc2"><a href="##">我国将助力构建无缝 隙地球系统预报</a></h3>
                                 <p>2020.05.16</p>
-                                <img class="go" src="magic/images/go.png" alt="" />
+                                <span class="go"></span>
                             </li>
-                            <li class="fl">
+                            <li class="fl" data-scroll-reveal="enter bottom over 0.8s after 1.1s">
                                 <h3 class="wzyc2"><a href="##">关于开展地球系统模 式耦合（CAM-FVC</a></h3>
                                 <p>2020.05.16</p>
-                                <img class="go" src="magic/images/go.png" alt="" />
+                                <span class="go"></span>
                             </li>
                         </ul>
                     </div>
@@ -199,14 +258,14 @@
     <!-- 第二块 -->
     <div class="index2">
         <div class="wrap">
-            <div class="index1Title cf">
+            <div class="index1Title cf" data-scroll-reveal="enter top  and move 300px after 0.3s">
                 <h2 class="fl">
                     通知公告
                     <span>announcement</span>
                 </h2>
                 <a href="##" class="fr">View more+</a>
             </div>
-            <div class="con">
+            <div class="con" data-scroll-reveal="enter left over 1s and move 50px after 0.3s">
                 <div class="picScroll-left index2Slide">
                     <div class="index2Hd hd">
                         <ul></ul>
@@ -255,10 +314,10 @@
     <div class="index3">
         <div class="wrap">
             <div class="indexTeam cf">
-                <div class="pic fl">
+                <div class="pic fl" data-scroll-reveal="enter left move 80px over 0.8s after 0.5s">
                     <img src="magic/images/index3pic.png" alt="" />
                 </div>
-                <div class="text fr">
+                <div class="text fr" data-scroll-reveal="enter right move 80px over 0.8s after 0.5s">
                     <div class="teamTitle">
                         <!-- <img src="magic/images/teamTitle.png" alt="" /> -->
                         <h4>Introduction</h4>
@@ -276,7 +335,7 @@
                     <h4>Topic introduction</h4>
                 </div>
                 <ul>
-                    <li class="li1">
+                    <li class="li1" data-scroll-reveal="enter left move 80px over 0.8s after 0.5s">
                         <a href="##">
                             <img src="magic/images/topicPic1.jpg" alt="" />
                             <div class="text">
@@ -287,7 +346,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="li2">
+                    <li class="li2" data-scroll-reveal="enter top move 80px over 0.8s after 0.5s">
                         <a href="##">
                             <img src="magic/images/topicPic2.jpg" alt="" />
                             <div class="text">
@@ -298,7 +357,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="li3">
+                    <li class="li3" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.5s">
                         <a href="##">
                             <img src="magic/images/topicPic3.jpg" alt="" />
                             <div class="text">
@@ -309,7 +368,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="li4">
+                    <li class="li4"data-scroll-reveal="enter right move 80px over 0.8s after 0.5s">
                         <a href="##">
                             <img src="magic/images/topicPic4.jpg" alt="" />
                             <div class="text">
@@ -320,7 +379,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="li5">
+                    <li class="li5" data-scroll-reveal="enter top move 80px over 0.8s after 0.7s">
                         <a href="##">
                             <img src="magic/images/topicPic5.jpg" alt="" />
                             <div class="text">
@@ -338,7 +397,7 @@
     
     <div class="index4">
         <div class="wrap cf">
-            <div class="researchTeam fl">
+            <div class="researchTeam fl" data-scroll-reveal="enter left move 80px over 0.8s after 0.7s">
                 <div class="index1Title cf">
                     <h2 class="fl">
                         研究团队
@@ -412,17 +471,17 @@
                     </h2>
                 </div>
                 <ul>
-                    <li>
+                    <li data-scroll-reveal="enter bottom move 80px over 0.8s after 0.5s">
                         <a href="##">
                             <p class="wzyc3">遵照国家科技项目管理办法，实行 首席科学家负责制，成立项目专家 组、课题组和项目秘书处，实施安排</p>
                         </a>
                     </li>
-                    <li>
+                    <li data-scroll-reveal="enter bottom move 80px over 0.8s after 0.7s">
                         <a href="##">
                             <p class="wzyc3">遵照国家科技项目管理办法，实行 首席科学家负责制，成立项目专家 组、课题组和项目秘书处，实施安排</p>
                         </a>
                     </li>
-                    <li>
+                    <li data-scroll-reveal="enter bottom move 80px over 0.8s after 0.9s">
                         <a href="##">
                             <p class="wzyc3">遵照国家科技项目管理办法，实行 首席科学家负责制，成立项目专家 组、课题组和项目秘书处，实施安排</p>
                         </a>
@@ -434,13 +493,13 @@
 
     <div class="index5">
         <div class="wrap">
-            <div class="index1Title cf">
+            <div class="index1Title cf" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.5s">
                 <h2 class="fl">
                     友情链接
                     <span>Links</span>
                 </h2>
             </div>
-            <ul class="cf">
+            <ul class="cf" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.7s">
                 <li class="fl">
                     <a href="##">
                         <div class="pic"><img src="magic/images/lineLogo1.jpg" alt="" /></div>
@@ -527,15 +586,38 @@
         </div>
     </div>
 
+    <script src="magic/js/scrollReveal.js"></script> 
     <script type="text/javascript" src="magic/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="magic/js/swiper.min.js"></script>
     <script type="text/javascript" src="magic/js/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="magic/js/index.js"></script>
     <script type="text/javascript">
-        jQuery(".banner").slide({
-            mainCell:".bannerBd ul",
-            effect:"leftLoop",
-            autoPlay:true
-        });
+        (function(){
+            window.scrollReveal = new scrollReveal({ reset: true});
+        })();
+    </script>
+
+
+    <script>
+    var banner = new Swiper('.banner', {
+        autoplay: true,//可选选项，自动滑动
+        loop:true,//循环滚动
+        autoplay: {
+            disableOnInteraction: false,//触碰后自动切换也不会停止
+        }, 
+        pagination: {  //分页器
+            el: '.bannerPagination',
+            clickable :true, //点击小点跳转对应图片
+        }
+    })
+    </script>
+    
+    <script type="text/javascript">
+        // jQuery(".banner").slide({
+        //     mainCell:".bannerBd ul",
+        //     effect:"leftLoop",
+        //     autoPlay:true
+        // });
         jQuery(".index2Slide").slide({
             titCell:".index2Hd ul",
             mainCell:".index2Bd ul",
@@ -554,6 +636,7 @@
             vis:4,
             trigger:"click"
         });
+        
     </script>
 </body>
 </html>

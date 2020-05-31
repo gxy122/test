@@ -8,6 +8,10 @@ a:hover{ color:#0658b3; }
 　　font-family:AvianRegular;
 　　src:url('../font/AvianRegular.ttf');/*IE9*/
  }
+@font-face{
+　　font-family:colonnamt;
+　　src:url('../font/colonnamt.ttf');/*IE9*/
+ }
 /*头部*/
 .header{ width:1230px; top:0; left:50%; z-index: 10; position: absolute; margin-left:-615px; }
 .headerTop{ height:116px; position: relative; }
@@ -16,6 +20,26 @@ a:hover{ color:#0658b3; }
 .headerTop .search{ width:110px; height:28px; margin:44px 0 0; padding:0 30px 0 10px; position: relative; border:1px solid #bcbbb6; border-radius: 14px; }
 .headerTop .search input{ width:100%; height:28px; border:0; background: none; font-size: 14px; color:#fff; }
 .headerTop .search input.btn{ width:16px; height:16px; right:10px; top:50%; position: absolute; margin-top: -8px; background:url(../images/search.png) no-repeat center / cover; }
+
+
+
+
+.headerTop .search input::-webkit-input-placeholder{
+    color:#fff;
+    opacity: 1;
+}
+.headerTop .search input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#fff;
+    opacity: 1;
+}
+.headerTop .search input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#fff;
+    opacity: 1;
+}
+.headerTop .search input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#fff;
+    opacity: 1;
+}
 
 /*导航*/
 .nav{ height:44px; padding:0 52px; background:#2984ea; }
@@ -36,6 +60,25 @@ a:hover{ color:#0658b3; }
 .banner .hd{ width:100%; left:0; bottom:50px; text-align: center; position: absolute; z-index: 5; }
 .banner .hd li{ width:10px; height:10px; margin:0 5px; cursor:pointer; display:inline-block; border:3px solid #fff; border-radius: 50%; }
 .banner .hd li.on{ border-color:#0d5eb9; }
+.banner .bd li{ position: relative; }
+.banner .text{ top:50%; left:50%; position: absolute; transform:translate(-50%,-30%); color:#fff; text-align: center; text-shadow: 2px 0 15px rgba(7,1,2,0.6); }
+.banner a:hover .text{ color:#fff; }
+.banner h3{ font-size: 66px; font-weight: normal; padding:0 0 20px; position: relative; transition:all 0.5s; }
+.banner h4{ font-size: 30px; text-transform: uppercase; font-family: "colonnamt"; position: relative; transition:all 1s 0.3s; }
+.bannerTop{ transform:translateY(-150px); }
+.bannerBottom{ transform:translateY(150px); }
+.bannerLeft{ transform:translateX(-150px); }
+.bannerRight{ transform:translateX(150px); }
+
+.banner .swiper-slide-active .bannerTop{ transform:translateY(0); }
+.banner .swiper-slide-active .bannerBottom{ transform:translateY(0); }
+.banner .swiper-slide-active .bannerLeft{ transform:translateX(0); }
+.banner .swiper-slide-active .bannerRight{ transform:translateX(0); }
+
+.banner .swiper-pagination{ bottom:50px; }
+.banner .swiper-pagination-bullet{ width:10px; height:10px; margin:0 5px; cursor:pointer; display:inline-block; border:3px solid #fff; border-radius: 50%; opacity:1; background:none; }
+.banner .swiper-pagination-bullet-active{ border-color:#0d5eb9; }
+
 
 /*index1*/
 .index1{ width:100%; padding:75px 0 90px; background:url(../images/index1Bg.jpg) no-repeat center / cover; background-attachment:fixed; }
@@ -83,10 +126,11 @@ a:hover{ color:#0658b3; }
 .indexLectureCon li{ padding:20px 13px 16px 16px; width:145px; background:#f5f4fe; }
 .indexLectureCon li h3{ font-size: 16px; font-weight:normal; line-height: 24px; height:48px; }
 .indexLectureCon li p{ font-size: 14px; color:#707070; font-family: 'Arial Regular','Arial'; padding:15px 0 14px; }
-.indexLectureCon li .go{ width:27px; height:27px; display:block; }
+.indexLectureCon li .go{ width:27px; height:27px; background:url(../images/go.png) no-repeat center / cover; display:block; }
 .indexLectureCon li:nth-child(2n){ margin:0 3px; background:#edf5fa; }
-
-
+.indexLectureCon li:hover{ background:#1889cf; }
+.indexLectureCon li:hover p,.indexLectureCon li:hover a,.indexLectureCon li a:hover{ color:#fff; }
+.indexLectureCon li:hover .go{ background-image: url(../images/go1.png); }
 /*公告*/
 .index2{ width:100%; padding:64px 0 86px; background:url(../images/index2Bg.jpg) no-repeat center / cover; }
 .index2 .index1Title *{ color:#fff; }
