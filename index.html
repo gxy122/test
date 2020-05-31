@@ -99,48 +99,7 @@
         </div>
         <div class="swiper-pagination bannerPagination"></div> 
     </div>
-    <!-- <div id="slideBox" class="slideBox banner">
-        <div class="bd bannerBd">
-            <ul>
-                <li>
-                    <a href="##">
-                        <img src="magic/images/banner.jpg" />
-                        <div class="text">
-                            <h3 class="bannerBottom">地球系统模式创新团队</h3>
-                            <h4 class="bannerBottom">Earth system model innovation team</h4>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="magic/images/banner.jpg" />
-                        <div class="text">
-                            <h3 class="bannerLeft">地球系统模式创新团队</h3>
-                            <h4 class="bannerRight">Earth system model innovation team</h4>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="magic/images/banner.jpg" />
-                        <div class="text">
-                            <h3 class="bannerTop">地球系统模式创新团队</h3>
-                            <h4 class="bannerBottom">Earth system model innovation team</h4>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="hd bannerHd">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-
-    </div> -->
+    
 
     <!-- 第一块 -->
     <div class="index1 row">
@@ -266,7 +225,7 @@
                 <a href="##" class="fr">View more+</a>
             </div>
             <div class="con" data-scroll-reveal="enter left over 1s and move 50px after 0.3s">
-                <div class="picScroll-left index2Slide">
+                <!-- <div class="picScroll-left index2Slide">
                     <div class="index2Hd hd">
                         <ul></ul>
                     </div>
@@ -306,7 +265,41 @@
                             </li>
                         </ul>
                     </div>
+                </div> -->
+                <div class="ggBox">
+                    <div class="swiper-container ggSlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="liBox">
+                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
+                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
+                                    <span>2020.02.06</span>
+                                    <img src="magic/images/add.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="liBox">
+                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
+                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
+                                    <span>2020.02.06</span>
+                                    <img src="magic/images/add.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="liBox">
+                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
+                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
+                                    <span>2020.02.06</span>
+                                    <img src="magic/images/add.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="index2Pagination">
+                        <div class="swiper-pagination ggPagination"></div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -610,6 +603,22 @@
             clickable :true, //点击小点跳转对应图片
         }
     })
+    var ggSlide = new Swiper('.ggSlide', {
+        autoplay: false,//可选选项，自动滑动
+        slidesPerView : 3,//一行显示2块
+        slidesPerGroup : 1,//滚动一次走1块
+        loop:true,//循环滚动
+        // autoplay: {
+        //     disableOnInteraction: false,//触碰后自动切换也不会停止
+        // }, 
+        pagination: {  //分页器
+            el: '.ggPagination',
+            clickable :true, //点击小点跳转对应图片
+            renderBullet: function (index, className) {
+              return '<span class="' + className + '">' + (index + 1) + '</span>';
+            },
+        },
+    })
     </script>
     
     <script type="text/javascript">
@@ -623,7 +632,7 @@
             mainCell:".index2Bd ul",
             autoPage:true,
             effect:"leftLoop",
-            autoPlay:true,
+            autoPlay:false,
             vis:3,
             trigger:"click"
         });

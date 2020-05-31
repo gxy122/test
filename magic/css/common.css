@@ -139,12 +139,13 @@ a:hover{ color:#0658b3; }
 .index2 .index1Title::after{ display:none; }
 .index2 .con{ padding:10px 0 82px; position: relative; }
 .index2 .picList li{ width:408px; background:#fff; }
-.index2 .picList .liBox{ padding:35px 35px 35px 30px; position: relative; height:186px; border:1px solid #dedede; }
-.index2 .picList h3{ font-size: 20px; font-weight: normal; color:#333; line-height: 26px; height:52px; }
-.index2 .picList p{ font-size: 14px; color:#707070; line-height: 22px; height:44px; margin:12px 0 26px; }
-.index2 .picList span{ color:#707070; font-size: 14px; font-family: 'Arial Regular','Arial'; }
-.index2 .picList img{ width:73px; height:73px; left:50%; bottom:-36px; position: absolute; margin-left: -36px; transition:all 0.5s; }
-.index2 .picList li:hover img{ transform:rotate(180deg); }
+.index2 .picList .liBox,.index2 .ggSlide .liBox{ padding:35px 35px 0 30px; position: relative; height:186px; border:1px solid #dedede; }
+.index2 .picList h3,.index2 .ggSlide h3{ font-size: 20px; font-weight: normal; color:#333; line-height: 26px; height:52px; }
+.index2 .picList p,.index2 .ggSlide p{ font-size: 14px; color:#707070; line-height: 22px; height:44px; margin:12px 0 20px; }
+.index2 .picList span,.index2 .ggSlide span{ color:#707070; font-size: 14px; font-family: 'Arial Regular','Arial'; }
+.index2 .picList img,.index2 .ggSlide img{ width:73px; height:73px; left:50%; bottom:-36px; position: absolute; margin-left: -36px; transition:all 0.5s; }
+.index2 .picList li:hover img,.index2 .ggSlide .swiper-slide:hover img{ transform:rotate(180deg); }
+.ggSlide .swiper-slide{ background:#fff; }
 .index2 .hd{ width:100%; left:0; bottom:0px; position: absolute; height:1px; width:100%; background:#dedede; }
 .index2 .hd::before{ width:15px; height:3px; content:""; left:0; top:-1px; background:#fff; position: absolute; }
 .index2 .hd::after{ width:15px; height:3px; content:""; right:0; top:-1px; background:#fff; position: absolute; }
@@ -152,6 +153,16 @@ a:hover{ color:#0658b3; }
 .index2 .hd li{ width:20px; cursor:pointer; height:20px; display:inline-block; line-height: 20px; text-align: center; color:#333; font-size: 16px;  }
 .index2 .hd li.on{ color:#c2830b; background:#fef0c6; border-radius: 10px; }
 .index2 .picList{ padding-bottom: 37px !important; }
+
+.index2 .con{ padding-bottom: 0; }
+.index2 .ggSlide{ padding:0 0 27px; }
+.index2 .ggBox{ padding:0 0 55px; }
+.index2 .index2Pagination{ width:100%; left:0; bottom:0px; position: absolute; height:1px; width:100%; background:#dedede; }
+.index2 .index2Pagination::before{ width:15px; height:3px; content:""; left:0; top:-1px; background:#fff; position: absolute; }
+.index2 .index2Pagination::after{ width:15px; height:3px; content:""; right:0; top:-1px; background:#fff; position: absolute; }
+.index2 .ggPagination{ left:50%; top:-10px; padding:0 13px; display:flex; align-items:center; height:20px; border-radius: 10px; position: absolute; background:#fff; transform:translateX(-50%); }
+.index2 .swiper-pagination-bullet{ width:20px; cursor:pointer; height:20px; display:inline-block; line-height: 20px; background:none; opacity:1; text-align: center; color:#333; font-size: 16px; border-radius: 10px; }
+.index2 .swiper-pagination-bullet-active{ color:#c2830b; background:#fef0c6; }
 
 /*第三块*/
 .index3{ padding:0 0 110px; background:url(../images/index3Bg.jpg) no-repeat center / cover; background-attachment:fixed; }
