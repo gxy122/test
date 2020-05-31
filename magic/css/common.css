@@ -63,7 +63,7 @@ a:hover{ color:#0658b3; }
 .banner .bd li{ position: relative; }
 .banner .text{ top:50%; left:50%; position: absolute; transform:translate(-50%,-30%); color:#fff; text-align: center; text-shadow: 2px 0 15px rgba(7,1,2,0.6); }
 .banner a:hover .text{ color:#fff; }
-.banner h3{ font-size: 66px; font-weight: normal; padding:0 0 20px; position: relative; transition:all 0.5s; }
+.banner h3{ font-size: 66px; font-weight: normal; padding:0 0 10px; position: relative; transition:all 0.5s; }
 .banner h4{ font-size: 30px; text-transform: uppercase; font-family: "colonnamt"; position: relative; transition:all 1s 0.3s; }
 .bannerTop{ transform:translateY(-150px); }
 .bannerBottom{ transform:translateY(150px); }
@@ -132,7 +132,8 @@ a:hover{ color:#0658b3; }
 .indexLectureCon li:hover p,.indexLectureCon li:hover a,.indexLectureCon li a:hover{ color:#fff; }
 .indexLectureCon li:hover .go{ background-image: url(../images/go1.png); }
 /*公告*/
-.index2{ width:100%; padding:64px 0 86px; background:url(../images/index2Bg.jpg) no-repeat center / cover; }
+.index2{ width:100%; padding:64px 0 76px; background:url(../images/index2Bg.jpg) no-repeat center / cover; }
+.index2 .wrap{ padding:0 0 10px; }
 .index2 .index1Title *{ color:#fff; }
 .index2 .index1Title a:hover{ color:#fff; text-decoration: underline; }
 .index2 .index1Title::after{ display:none; }
