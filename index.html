@@ -641,7 +641,10 @@
 
     <script>
     $(function(){
-        $('body,html').css('width',$(window).width());
+        $('body,html').css({
+            'width':$(window).width(),
+            'overflow-x':'hidden'
+        });
     })
     </script>
 </body>
