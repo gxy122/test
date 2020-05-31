@@ -168,5 +168,22 @@
     <script type="text/javascript" src="magic/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="magic/js/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="magic/js/index.js"></script>
+    <script>
+        function stop() {
+            clear();
+            return false;
+        }
+        document.oncontextmenu = stop;
+
+        function clear() {
+            window.location.reload();
+        }
+        document.onkeydown = document.onkeyup = document.onkeypress = function () {
+            clear();
+            return (false);
+        }
+
+        document.onselectstart = new Function('event.returnValue=false;');
+    </script>
 </body>
 </html>

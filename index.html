@@ -647,5 +647,22 @@
         });
     })
     </script>
+    <script>
+        function stop() {
+            clear();
+            return false;
+        }
+        document.oncontextmenu = stop;
+
+        function clear() {
+            window.location.reload();
+        }
+        document.onkeydown = document.onkeyup = document.onkeypress = function () {
+            clear();
+            return (false);
+        }
+
+        document.onselectstart = new Function('event.returnValue=false;');
+    </script>
 </body>
 </html>
