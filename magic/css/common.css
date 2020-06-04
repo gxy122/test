@@ -304,7 +304,7 @@ a:hover{ color:#0658b3; }
     .banner .swiper-pagination-bullet{ width:6px; height:6px; border-width: 1px; }
     .banner .swiper-pagination{ bottom: 10px; }
     
-    .index1{ padding:30px 0; }
+    .index1{ padding:30px 0; background-position:right center; }
     .index1Title{ height:40px; line-height: 40px; }
     .index1Title h2{ font-size: 18px; }
     .index1Title h2 span,.index1Title a{ font-size: 12px; }
@@ -330,20 +330,22 @@ a:hover{ color:#0658b3; }
 
     .indexLecture .title{ width:100%; height:auto; }
     .indexLectureCon{ width:100%; height:auto; }
-    .indexLectureCon .box{ padding:30px 10px; }
+    .indexLectureCon .box{ padding:12px 10px; }
     .indexLectureCon .text h2{ font-size: 16px; line-height: 32px; }
     .indexLectureCon .text .nr{ font-size: 12px; }
     .indexLectureCon li{ width:30%; height:auto; padding:10px 1%; margin:0 2% 0 0; }
     .indexLectureCon li:nth-child(3){ margin-right: 0; }
     .indexLectureCon li:nth-child(2n){ margin:0 2% 0 0; }
-    .indexLectureCon li .go{ width:16px; height:16px; }
+    .indexLectureCon li .go{ width:20px; height:20px; }
     .indexLectureCon li h3{ font-size: 14px; line-height: 18px; height:36px; }
-    .indexLectureCon li p{ margin:5px 0; padding:0; }
-    .index2{ padding:30px 0; }
+    .indexLectureCon li p{ margin:10px 0; padding:0; }
+    .index2{ padding:15px 0; }
     .index2 .picList .liBox, .index2 .ggSlide .liBox{ padding:20px; }
-    .index2 .picList h3, .index2 .ggSlide h3{ font-size: 16px; }
+    .index2 .picList h3, .index2 .ggSlide h3{ font-size: 16px; line-height: 20px; max-height: 40px; }
     .index2 .picList img, .index2 .ggSlide img{ width:50px; height:50px; margin-left: -25px; bottom:-25px; }
-    .index2 .ggBox{ padding-bottom: 30px; }
+    .index2 .ggBox{ padding-bottom: 15px; }
+    .index2 .picList p, .index2 .ggSlide p{ margin:8px 0 10px; }
+    .index2 .picList .liBox, .index2 .ggSlide .liBox{ height:135px; }
     
     .index3{ padding-bottom: 30px; }
     .indexTeam{ padding:30px 0; }
@@ -358,7 +360,7 @@ a:hover{ color:#0658b3; }
     .indexTopic ul{ height:auto; position: static; }
     .indexTopic li{ position: static; width:auto; height:auto; }
     .indexTopic{ height:auto; }
-    .indexTopic .title{ width:auto; padding:10px 20px; height:auto; }
+    .indexTopic .title{ width:auto; padding:22px 20px 10px; height:auto; }
     .indexTopic .title h3{font-size: 18px; line-height: 18px; height:20px; }
     .indexTopic .title h4{ font-size:12px; }
     .indexTopic li h3{ padding:0 15px; width:auto; font-size: 16px; height:26px; }
@@ -371,6 +373,8 @@ a:hover{ color:#0658b3; }
     .researchTeam .swiper-slide .nr{ font-size: 12px; line-height: 20px; }
     .teamManage{ padding:40px 0 0; }
     .teamManage li{ padding:15px 10px 15px 70px; background-position: 18px center; }
+    
+    .index4{ padding:25px 0; }
 
     .index5{ padding:30px 0; }
     .index5 li{ width:49%; height:54px; margin:0 2% 5px 0; }
