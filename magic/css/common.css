@@ -250,7 +250,7 @@ a:hover{ color:#0658b3; }
 
 
 .nav_m{ width:100%; height:100%; top:0; left:0; position: fixed; z-index: 5; display:none; background:#fff; }
-.nav_m ul{ padding:60px 3% 0; font-size: 14px; line-height: 30px; }
+.nav_m ul{ padding:60px 3% 0; font-size: 14px; line-height: 42px; }
 .nav_m li{ border-bottom:1px solid #ccc; font-weight: bold; }
 .nav_m li a{ display:block; }
 .nav_m li ol{ display:none; }
@@ -271,6 +271,8 @@ a:hover{ color:#0658b3; }
     .wrap{ width:94%; }
     .search_a,.nav_a,.headerTop .mLogo,.indexLecture .title_m{ display:block; }
     .headerTop .pcLogo,.indexLecture .title_pc{ display:none; }
+
+    .comTop{ width:30px; height:30px; margin-right: 0; right:3%; }
 
     .headerTop .search{ margin:0; padding:10px 3%; background:#fff; border-radius: 0; width:94%; top:60px; left:0; position: fixed; z-index: 20; }
     .headerTop .search .box{ padding:0 50px 0 20px; position: relative; border:1px solid #bcbbb6; height:30px; line-height: 30px; border-radius: 15px; }

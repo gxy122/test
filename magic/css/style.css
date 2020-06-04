@@ -138,12 +138,14 @@ body{ background:url(../images/bg.jpg); }
     .crumbs p{ font-size: 12px; }
     .newsLeft .listCon ul{ padding-bottom: 0; }
     .newsLeft .listCon ul::after{ display:none; }
+    .newsXq .crumbs{ display:none; }
+
 
     .pageForm{ display:none; }
 
-    .xqTtitle{ font-size: 12px; }
-    .xqTtitle h3{ font-size: 18px; line-height: 34px; }
-    .newsXqCon{ padding:20px 0 0; font-size: 12px; line-height: 20px; }
+    .xqTtitle{ font-size: 14px; }
+    .xqTtitle h3{ font-size: 20px; line-height: 28px; margin: 10px 0; }
+    .newsXqCon{ padding:20px 0 0; font-size: 14px; line-height: 26px; }
 
     .coreMembersLeft{ display:none; }
     .coreMembersRightTitle h3{ height:32px; font-size: 18px; }
@@ -151,7 +153,7 @@ body{ background:url(../images/bg.jpg); }
     .ohhyCon{ padding:10px; }
 
     .ohhyCon li{ height:auto; margin:0 0 10px; }
-    .ohhyCon li .li_l{ font-size: 14px; line-height: 22px; }
+    .ohhyCon li .li_l{ font-size: 14px; line-height: 22px; width:100%; }
     .ohhyCon li .li_r a{ font-size: 12px; width: auto; padding:0 5px; }
     .ohhyCon li .li_r .Wdate{ width:170px !important; }
     .ohhyCon li .li_r .aBox{ margin:10px 0 0; width:100%; padding:0; text-align: center; }
