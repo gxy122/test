@@ -15,7 +15,7 @@ a:hover{ color:#0658b3; }
 /*头部*/
 .header{ width:1230px; top:0; left:50%; z-index: 10; position: absolute; margin-left:-615px; }
 .headerTop{ height:116px; position: relative; }
-.headerTop .logo{ width:673px; height:57px; margin:30px 0 0; }
+.headerTop .logo{ width:490px; height:70px; margin:24px 0 0; }
 .headerTop .mLogo{ display:block; }
 .headerTop .pcLogo{ display:none; }
 .logo img{ width:100%; display:block; }
@@ -239,7 +239,7 @@ a:hover{ color:#0658b3; }
 .footer .line a:hover{ color:#fff; text-decoration: underline; }
 
 .foot{ padding:35px 0 30px; }
-.footLogo{ width:475px; height:39px; overflow: hidden; }
+.footLogo{ width:490px; height:70px; overflow: hidden; }
 .footLogo img{ width:100%; display:block; }
 .foot .nr{ font-size: 14px; color:#fff; line-height: 26px; padding:4px 0 8px; margin:0 0 0 35px; padding:0 0 0 30px; border-left:1px solid #6c6c6c; }
 .footEwm{ width:92px; height:92px; overflow: hidden; }
@@ -320,7 +320,6 @@ a:hover{ color:#0658b3; }
     .indexNewsConL_zhu h3{ font-size: 16px; }
     .indexNewsConL_zhu .more,.indexNewsConL li span{ font-size: 12px; }
     .indexNewsConL ul{ padding:10px 0; }
-    .indexLectureCon ul{ padding-bottom: 50px; }
     .indexNewsConL li{ padding:0 0 0 20px; }
     .indexNewsConL li a{ width:75%; font-size: 12px; }
     .indexNewsConL li::before{ left:0; }
@@ -332,10 +331,12 @@ a:hover{ color:#0658b3; }
 
 
     .indexLecture .title{ width:100%; height:auto; }
+    .indexLecture{ box-shadow: none; }
     .indexLectureCon{ width:100%; height:auto; background:none; }
     .indexLectureCon .box{ padding:12px 0px 0; }
     .indexLectureCon .text h2{ font-size: 16px; line-height: 32px; }
     .indexLectureCon .text .nr{ font-size: 12px; }
+    .indexLectureCon ul{ padding-bottom: 50px; }
     .indexLectureCon li{ width:28%; height:auto; padding:10px 2%; margin:0 2% 0 0; background:rgba(255,255,255,0.9); box-shadow: 0 0 10px rgba(7,1,2,0.18); }
 
     .indexLectureCon li:nth-child(3){ margin-right: 0; }
@@ -386,7 +387,7 @@ a:hover{ color:#0658b3; }
     .index5 li:nth-child(5n){ margin-right: 2%; }
     .index5 li:nth-child(2n){ margin-right: 0; }
 
-    .footLogo{ width:100%; }
+    .footLogo{ width:90%; height:auto; margin:0 auto 10px; float:none; }
     .foot .nr{ width:100%; margin:0; padding:0; border:0; font-size: 12px; text-align: center; line-height: 20px; }
     .footEwm{ margin:0 auto 0; float:none; padding:20px 0 0; }
 }
