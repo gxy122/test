@@ -1,11 +1,26 @@
-<!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>首页</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+
+
     <link rel="stylesheet" type="text/css" href="magic/css/swiper.min.css" />
     <link rel="stylesheet" type="text/css" href="magic/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="magic/css/default.css" />
     <link rel="stylesheet" type="text/css" href="magic/css/common.css" />
 </head>
 <body>
@@ -17,9 +32,17 @@
                     <img src="magic/images/logo.png" alt="南方海洋科学与工程广东省实验室（珠海）" />
                 </a>
             </h1>
+            <a href="javascript:;" class="nav_a">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="javascript:;" class="search_a"></a>
             <div class="search fr">
-                <input type="text" placeholder="请输入关键字" />
-                <input type="button" class="btn" />
+                <div class="box">
+                    <input type="text" placeholder="请输入关键字" />
+                    <input type="button" class="btn" />
+                </div>
             </div>
         </div>
         <ul class="nav cf">
@@ -63,33 +86,91 @@
             </li>
         </ul>
     </div>
+    
+    <div class="nav_m">
+        <ul>
+            <li class="on">
+                <a href="index.html">首页</a>
+            </li>
+            <li>
+                <a href="##">项目介绍</a>
+            </li>
+            <li>
+                <a href="##">研究团队</a>
+                <ol>
+                    <li>
+                        <a href="##">团队介绍</a>
+                    </li>
+                    <li>
+                        <a href="##">首席科学家</a>
+                    </li>
+                    <li>
+                        <a href="##">院士风采</a>
+                    </li>
+                    <li>
+                        <a href="coreMembers.html">核心成员</a>
+                    </li>
+                    <li>
+                        <a href="##">团队成员</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="##">课题介绍</a>
+                <ol>
+                    <li>
+                        <a href="##">团队介绍</a>
+                    </li>
+                    <li>
+                        <a href="##">首席科学家</a>
+                    </li>
+                    <li>
+                        <a href="##">院士风采</a>
+                    </li>
+                    <li>
+                        <a href="coreMembers.html">核心成员</a>
+                    </li>
+                    <li>
+                        <a href="##">团队成员</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="news.html">科研动态</a>
+            </li>
+            <li>
+                <a href="##">团队管理</a>
+            </li>
+            <li class="marR0">
+                <a href="ouhehaiyang.html">数据服务</a>
+            </li>
+        </ul>
+    </div>
 
     <!-- banner -->
-
-
     <div class="swiper-container banner">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide" style="background-image:url(magic/images/banner.jpg)">
                 <a href="##">
-                    <img src="magic/images/banner.jpg" alt="" />
+                    <!-- <img src="magic/images/banner.jpg" alt="" /> -->
                     <div class="text">
                         <h3 class="bannerLeft"><img src="magic/images/bannerText1.png" alt="" /></h3>
                         <h4 class="bannerRight"><img src="magic/images/bannerText2.png" alt="" /></h4>
                     </div>
                 </a>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" style="background-image:url(magic/images/banner.jpg)">
                 <a href="##">
-                    <img src="magic/images/banner.jpg" alt="" />
+                    <!-- <img src="magic/images/banner.jpg" alt="" /> -->
                     <div class="text">
                         <h3 class="bannerTop"><img src="magic/images/bannerText1.png" alt="" /></h3>
                         <h4 class="bannerBottom"><img src="magic/images/bannerText2.png" alt="" /></h4>
                     </div>
                 </a>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" style="background-image:url(magic/images/banner.jpg)">
                 <a href="##">
-                    <img src="magic/images/banner.jpg" alt="" />
+                    <!-- <img src="magic/images/banner.jpg" alt="" /> -->
                     <div class="text">
                         <h3 class="bannerLeft"><img src="magic/images/bannerText1.png" alt="" /></h3>
                         <h4 class="bannerRight"><img src="magic/images/bannerText2.png" alt="" /></h4>
@@ -225,47 +306,7 @@
                 <a href="##" class="fr">View more+</a>
             </div>
             <div class="con" data-scroll-reveal="enter left over 1s and move 50px after 0.3s">
-                <!-- <div class="picScroll-left index2Slide">
-                    <div class="index2Hd hd">
-                        <ul></ul>
-                    </div>
-                    <div class="index2Bd bd">
-                        <ul class="picList">
-                            <li>
-                                <div class="liBox">
-                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
-                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
-                                    <span>2020.02.06</span>
-                                    <img src="magic/images/add.png" alt="" />
-                                </div>
-                            </li>
-                            <li>
-                                <div class="liBox">
-                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
-                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
-                                    <span>2020.02.06</span>
-                                    <img src="magic/images/add.png" alt="" />
-                                </div>
-                            </li>
-                            <li>
-                                <div class="liBox">
-                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
-                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
-                                    <span>2020.02.06</span>
-                                    <img src="magic/images/add.png" alt="" />
-                                </div>
-                            </li>
-                            <li>
-                                <div class="liBox">
-                                    <h3 class="wzyc2"><a href="##">快速射电暴源于何处？新发现正在接近真相</a></h3>
-                                    <p class="wzyc2">近日，世界各地射电天文台都报告说：在银河系内捕捉到了一个强烈的、长达1毫秒的快速射电暴。科学家们希望，进一步的研究能证明这的确是来自银河系内的宇宙信号。</p>
-                                    <span>2020.02.06</span>
-                                    <img src="magic/images/add.png" alt="" />
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> -->
+                
                 <div class="ggBox">
                     <div class="swiper-container ggSlide">
                         <div class="swiper-wrapper">
@@ -329,7 +370,7 @@
                 <div class="text fr" data-scroll-reveal="enter right move 80px over 0.8s after 0.5s">
                     <div class="teamTitle">
                         <!-- <img src="magic/images/teamTitle.png" alt="" /> -->
-                        <h4>Introduction</h4>
+                        <h4><img src="magic/images/timeTitle.png" alt="" /></h4>
                         <h3>团队介绍</h3>
                     </div>
                     <div class="nr">
@@ -415,60 +456,59 @@
                     <a href="##" class="fr">View more+</a>
                 </div>
                 <div class="con">
-                    <div class="picScroll-left researchTeamSlide">
-                        <div class="hd researchHd">
-                            <a class="prev"></a>
-                            <ul></ul>
-                            <a class="next"></a>
+                   
+                    <div class="swiper-container index4Slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="pic">
+                                    <a href="##"><img src="magic/images/index_13.jpg" alt="" /></a>
+                                </div>
+                                <div class="text">
+                                    <h3 class="wzyc"><a href="##">董文杰</a></h3>
+                                    <div class="nr wzyc2">
+                                        <p>国家重点研发计划项目首席科学家</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="pic">
+                                    <a href="##"><img src="magic/images/index_15.jpg" alt="" /></a>
+                                </div>
+                                <div class="text">
+                                    <h3 class="wzyc"><a href="##">宋君强</a></h3>
+                                    <div class="nr wzyc2">
+                                        <p>国防科技大学气象海洋学院研究员</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="pic">
+                                    <a href="##"><img src="magic/images/index_17.jpg" alt="" /></a>
+                                </div>
+                                <div class="text">
+                                    <h3 class="wzyc"><a href="##">陈长胜</a></h3>
+                                    <div class="nr wzyc2">
+                                        <p>麻省大学海洋科学和技术学院蒙哥马利终身讲席教授</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="pic">
+                                    <a href="##"><img src="magic/images/index_20.jpg" alt="" /></a>
+                                </div>
+                                <div class="text">
+                                    <h3 class="wzyc"><a href="##">戴永久</a></h3>
+                                    <div class="nr wzyc2">
+                                        <p>“长江学者”特聘教授 “国家杰出青年基金”获得者</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="bd researchBd">
-                            <ul class="picList">
-                                <li>
-                                    <div class="pic">
-                                        <a href="##"><img src="magic/images/index_13.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="text">
-                                        <h3 class="wzyc"><a href="##">董文杰</a></h3>
-                                        <div class="nr wzyc2">
-                                            <p>国家重点研发计划项目首席科学家</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="pic">
-                                        <a href="##"><img src="magic/images/index_15.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="text">
-                                        <h3 class="wzyc"><a href="##">宋君强</a></h3>
-                                        <div class="nr wzyc2">
-                                            <p>国防科技大学气象海洋学院研究员</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="pic">
-                                        <a href="##"><img src="magic/images/index_17.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="text">
-                                        <h3 class="wzyc"><a href="##">陈长胜</a></h3>
-                                        <div class="nr wzyc2">
-                                            <p>麻省大学海洋科学和技术学院蒙哥马利终身讲席教授</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="pic">
-                                        <a href="##"><img src="magic/images/index_20.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="text">
-                                        <h3 class="wzyc"><a href="##">戴永久</a></h3>
-                                        <div class="nr wzyc2">
-                                            <p>“长江学者”特聘教授 “国家杰出青年基金”获得者</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="index4Kj">
+                        <div class="swiper-button-prev btn index4Prev"></div><!--左箭头-->
+                        <div class="swiper-pagination index4Pagination"></div>
+                        <div class="swiper-button-next btn index4Next"></div><!--右箭头-->
                     </div>
                 </div>
             </div>
@@ -598,7 +638,6 @@
     <script src="magic/js/scrollReveal.js"></script> 
     <script type="text/javascript" src="magic/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="magic/js/swiper.min.js"></script>
-    <script type="text/javascript" src="magic/js/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="magic/js/index.js"></script>
     <script type="text/javascript">
         (function(){
@@ -618,7 +657,7 @@
             el: '.bannerPagination',
             clickable :true, //点击小点跳转对应图片
         }
-    })
+    });
     var ggSlide = new Swiper('.ggSlide', {
         autoplay: {
             delay:6000
@@ -636,44 +675,44 @@
               return '<span class="' + className + '">' + (index + 1) + '</span>';
             },
         },
+        breakpoints: { 
+           //当宽度小于等于480
+            480: { 
+                slidesPerView: 1,
+                slidesPerGroup: 1//滚动一次走1块
+            }
+        }
+    });
+    var index4Slide = new Swiper('.index4Slide', {
+        autoplay: true,//可选选项，自动滑动
+        slidesPerView : 4,//一行显示2块
+        slidesPerGroup : 1,//滚动一次走1块
+        spaceBetween : 20,//块与块之间的距离
+        loop:true,//循环滚动
+        autoplay: {
+            disableOnInteraction: false,//触碰后自动切换也不会停止
+        }, 
+        pagination: {  //分页器
+            el: '.index4Pagination',
+            clickable :true, //点击小点跳转对应图片
+            renderBullet: function (index, className) {
+              return '<span class="' + className + '">' + (index + 1) + '</span>';
+            }
+        },
+        navigation: {
+            nextEl: '.index4Next',//右箭头
+            prevEl: '.index4rev',//左箭头
+        },
+        breakpoints: { 
+           //当宽度小于等于480
+            480: { 
+                slidesPerView: 2,
+                slidesPerGroup: 1//滚动一次走1块
+            }
+        }
     })
     </script>
     
-    <script type="text/javascript">
-        // jQuery(".banner").slide({
-        //     mainCell:".bannerBd ul",
-        //     effect:"leftLoop",
-        //     autoPlay:true
-        // });
-        jQuery(".index2Slide").slide({
-            titCell:".index2Hd ul",
-            mainCell:".index2Bd ul",
-            autoPage:true,
-            effect:"leftLoop",
-            autoPlay:false,
-            vis:3,
-            trigger:"click"
-        });
-        jQuery(".researchTeamSlide").slide({
-            titCell:".researchHd ul",
-            mainCell:".researchBd ul",
-            autoPage:true,
-            effect:"leftLoop",
-            autoPlay:true,
-            vis:4,
-            trigger:"click"
-        });
-        
-    </script>
-
-    <script>
-    $(function(){
-        $('body,html').css({
-            'width':$(window).width(),
-            'overflow-x':'hidden'
-        });
-    })
-    </script>
     <script>
         function stop() {
             clear();

@@ -66,7 +66,7 @@ body{ background:url(../images/bg.jpg); }
 
 /*新闻 */
 .newsCom{ padding:18px 0 66px; }
-.newsLeft{ width:860px; }
+.newsLeft{ width:860px; position: relative; }
 .newsLeft .title{ height:56px; line-height: 56px; position: relative; border-bottom: 1px solid #b8b8b8; }
 .newsLeft .title img{ width:34px; height:27px; margin:14px 0 0; }
 .newsLeft .title h2{ font-size: 26px; color:#333; margin:0 15px 0 12px; font-weight: normal; }
@@ -96,17 +96,71 @@ body{ background:url(../images/bg.jpg); }
 .newsRight li:hover{ background:#136ed4; }
 .newsRight li:hover h3,.newsRight li:hover p{ color:#fff; }
 
-.page{ text-align: center; }
 .page a,.page span{ display:inline-block; width:34px; height:34px; text-align: center; line-height: 34px; font-size: 16px; color:#707070; border:1px solid #adadad; border-radius: 2px; }
 .page a:hover,.page a.on{ background:#025a93; color:#fff; border-color:#025a93; }
 .pageForm{ display:inline-block; width:100px; height:34px; border:1px solid #adadad; border-radius: 2px; }
 .pageForm .sr{ width:50px; height:24px; line-height: 24px; background:none; border:0; margin:5px 0 0; border-right:1px solid #c8c8c8; text-align: center; }
 .pageForm .btn{ line-height: 34px; background:none; border:0; width:40px; }
 .page em{ padding:0 5px; }
-.newsLeft .page{ padding:18px 0 0; }
+.newsLeft .page{ left:155px; bottom:-15px; position: absolute; }
 
 /*新闻详情*/
 .xqTtitle{ border-bottom: 1px solid #b8b8b8; padding:0 0 15px; }
 .xqTtitle h3{ font-size: 26px; color:#333; line-height: 60px; font-weight: normal; }
 .newsXqCon{ padding:26px 0 50px; line-height: 24px; color:#707070; font-size: 16px; }
 .newsXqCon img{ display:block; max-width:100%; margin:0 auto; }
+
+
+@media only screen and (max-width: 479px) {
+    .topBg{ display:none; }
+    .tKong{ height:60px; }
+    
+    .newsCom{ padding-bottom: 30px; }
+    .newsLeft,.coreMembersRight{ width:100%; }
+    .newsLeft .title{ height:42px; line-height: 42px; }
+    .newsLeft .title h2{ font-size: 18px; }
+    .newsLeft .title p{ font-size: 12px; }
+    .newsLeft .title img{ width:22px; height:auto; }
+    .newsLeft .listCon{ padding:30px 0 0 70px; }
+    .newsLeft .listCon .liDateBox{ left:-72px; }
+    .newsLeft .listCon .liDateBox{ font-size: 12px; width:46px; }
+    .newsLeft .listCon .liDateBox h5{ font-size: 18px; }
+    .newsLeft .listCon li{ padding-left: 12px; }
+    .newsLeft .listCon .liDateBox h5::before{ right:-27px; top:10px; }
+    .newsLeft .listCon .liDateBox h5::after{ height:14px; width:14px; right:-32px; }
+    .newsLeft .listCon h3{ font-size: 16px; height:16px; line-height: 16px; top:-8px; }
+    .newsLeft .listCon li p.wzyc{ font-size: 12px; }
+    .newsRight{ display:none; }
+    .newsLeft .listCon li:last-child{ margin-bottom: 0; }
+    .newsLeft .page{ position: static; width:100%; text-align: center; padding-top: 30px; }
+    .page a, .page span{ width:26px; height:26px;line-height: 26px; }
+    
+    .crumbs p{ font-size: 12px; }
+    .newsLeft .listCon ul{ padding-bottom: 0; }
+    .newsLeft .listCon ul::after{ display:none; }
+
+    .pageForm{ display:none; }
+
+    .xqTtitle{ font-size: 12px; }
+    .xqTtitle h3{ font-size: 18px; line-height: 34px; }
+    .newsXqCon{ padding:20px 0 0; font-size: 12px; line-height: 20px; }
+
+    .coreMembersLeft{ display:none; }
+    .coreMembersRightTitle h3{ height:32px; font-size: 18px; }
+    .coreMembersRightTitle p{ font-size: 12px; padding-left: 10px; }
+    .ohhyCon{ padding:10px; }
+
+    .ohhyCon li{ height:auto; margin:0 0 10px; }
+    .ohhyCon li .li_l{ font-size: 14px; line-height: 22px; }
+    .ohhyCon li .li_r a{ font-size: 12px; width: auto; padding:0 5px; }
+    .ohhyCon li .li_r .Wdate{ width:170px !important; }
+    .ohhyCon li .li_r .aBox{ margin:10px 0 0; width:100%; padding:0; text-align: center; }
+    .ohhyCon li .li_r .aBox a{ padding:0; }
+    .ohhyCon li .li_r select{ display:block; }
+    .ohhyCon ul{ padding-bottom: 20px; }
+    .coreMembers{ padding:10px 0 30px; }
+    .ohhyConBox{ padding:30px 0 0; }
+    .ohhyConBox img{ display:block; width:100%; }
+    .ohhyCon li .li_r .Wdate,.ohhyCon li .li_r select{ font-size: 12px; }
+
+}

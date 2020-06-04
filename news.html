@@ -1,8 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>最新动态</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
     <link rel="stylesheet" type="text/css" href="magic/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="magic/css/default.css" />
     <link rel="stylesheet" type="text/css" href="magic/css/common.css" />
@@ -11,6 +25,7 @@
 <body>
     <!-- 头部 -->
     <div class="topBg"></div>
+    <!-- 头部 -->
     <div class="header">
         <div class="headerTop cf">
             <h1 class="logo fl">
@@ -18,12 +33,20 @@
                     <img src="magic/images/logo.png" alt="南方海洋科学与工程广东省实验室（珠海）" />
                 </a>
             </h1>
+            <a href="javascript:;" class="nav_a">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="javascript:;" class="search_a"></a>
             <div class="search fr">
-                <input type="text" placeholder="请输入关键字" />
-                <input type="button" class="btn" />
+                <div class="box">
+                    <input type="text" placeholder="请输入关键字" />
+                    <input type="button" class="btn" />
+                </div>
             </div>
         </div>
-        <ul class="nav cf">                          
+        <ul class="nav cf">
             <li class="on">
                 <a href="index.html">首页</a>
             </li>
@@ -52,6 +75,66 @@
             </li>
             <li>
                 <a href="##">课题介绍</a>
+            </li>
+            <li>
+                <a href="news.html">科研动态</a>
+            </li>
+            <li>
+                <a href="##">团队管理</a>
+            </li>
+            <li class="marR0">
+                <a href="ouhehaiyang.html">数据服务</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="nav_m">
+        <ul>
+            <li class="on">
+                <a href="index.html">首页</a>
+            </li>
+            <li>
+                <a href="##">项目介绍</a>
+            </li>
+            <li>
+                <a href="##">研究团队</a>
+                <ol>
+                    <li>
+                        <a href="##">团队介绍</a>
+                    </li>
+                    <li>
+                        <a href="##">首席科学家</a>
+                    </li>
+                    <li>
+                        <a href="##">院士风采</a>
+                    </li>
+                    <li>
+                        <a href="coreMembers.html">核心成员</a>
+                    </li>
+                    <li>
+                        <a href="##">团队成员</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="##">课题介绍</a>
+                <ol>
+                    <li>
+                        <a href="##">团队介绍</a>
+                    </li>
+                    <li>
+                        <a href="##">首席科学家</a>
+                    </li>
+                    <li>
+                        <a href="##">院士风采</a>
+                    </li>
+                    <li>
+                        <a href="coreMembers.html">核心成员</a>
+                    </li>
+                    <li>
+                        <a href="##">团队成员</a>
+                    </li>
+                </ol>
             </li>
             <li>
                 <a href="news.html">科研动态</a>
@@ -247,6 +330,7 @@
     <script type="text/javascript" src="magic/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="magic/js/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="magic/js/index.js"></script>
+    
     <script>
         function stop() {
             clear();
