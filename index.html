@@ -644,9 +644,15 @@
     <script type="text/javascript" src="magic/js/swiper.min.js"></script>
     <script type="text/javascript" src="magic/js/index.js"></script>
     <script type="text/javascript">
-        (function(){
-            window.scrollReveal = new scrollReveal({ reset: true});
-        })();
+        window.onload=function(){
+            if(window.innerWidth<560){
+                return ;
+            }
+            (function(){
+                window.scrollReveal = new scrollReveal({ reset: true});
+            })();
+        }
+        
     </script>
 
 
