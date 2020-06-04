@@ -29,7 +29,8 @@
         <div class="headerTop cf">
             <h1 class="logo fl">
                 <a href="index.html">
-                    <img src="magic/images/logo.png" alt="南方海洋科学与工程广东省实验室（珠海）" />
+                    <img class="pcLogo" src="magic/images/logo.png" alt="南方海洋科学与工程广东省实验室（珠海）" />
+                    <img class="mLogo" src="magic/images/logoM.png" alt="南方海洋科学与工程广东省实验室（珠海）" />
                 </a>
             </h1>
             <a href="javascript:;" class="nav_a">
@@ -252,7 +253,7 @@
                 </div>
             </div>
             <div class="indexLecture cf">
-                <div class="title fl" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.3s">
+                <div class="title title_pc fl" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.3s">
                     <img src="magic/images/index_10.jpg" alt="" />
                 </div>
                 <div class="indexLectureCon fr">
@@ -263,6 +264,9 @@
                                 <span>academic talk</span>
                             </h2>
                             <a href="##" class="fr">View more+</a>
+                        </div>
+                        <div class="title title_m" data-scroll-reveal="enter bottom move 80px over 0.8s after 0.3s">
+                            <img src="magic/images/index_10.jpg" alt="" />
                         </div>
                         <div class="text" data-scroll-reveal="enter bottom over 0.8s after 0.5s">
                             <h2 class="wzyc">报告题目：5月26日陈长胜教授学术报告通知</h2>
@@ -679,7 +683,15 @@
            //当宽度小于等于480
             480: { 
                 slidesPerView: 1,
-                slidesPerGroup: 1//滚动一次走1块
+                // slidesPerColumn: 2,
+                slidesPerGroup: 1,//滚动一次走1块
+                /*pagination: {  //分页器
+                    el: '.ggPagination',
+                    clickable :true, //点击小点跳转对应图片
+                    renderBullet: function (index, className) {
+                      return '<span class="' + className + '">' + (index + 1) + '</span>';
+                    },
+                }*/
             }
         }
     });
@@ -713,7 +725,7 @@
     })
     </script>
     
-    <script>
+    <!-- <script>
         function stop() {
             clear();
             return false;
@@ -729,6 +741,6 @@
         }
 
         document.onselectstart = new Function('event.returnValue=false;');
-    </script>
+    </script> -->
 </body>
 </html>
