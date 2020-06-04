@@ -332,7 +332,7 @@ a:hover{ color:#0658b3; }
     .indexNewsConR li{ width:100%; height:auto; margin:0 0 10px; }
 
 
-    .indexLecture .title{ width:100%; height:auto; }
+    .indexLecture .title{ width:100%; height:auto; margin-bottom: 15px; }
     .indexLecture{ box-shadow: none; }
     .indexLectureCon{ width:100%; height:auto; background:none; }
     .indexLectureCon .box{ padding:12px 0px 0; }
@@ -354,6 +354,8 @@ a:hover{ color:#0658b3; }
     .index2 .picList p, .index2 .ggSlide p{ margin:8px 0 10px; }
     .index2 .picList .liBox, .index2 .ggSlide .liBox{ height:135px; }
     
+
+
     .index3{ padding-bottom: 50px; }
     .indexTeam{ padding:50px 0 45px; }
     .indexTeam .pic{ width:100%; height:auto; }
