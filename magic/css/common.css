@@ -304,8 +304,9 @@ a:hover{ color:#0658b3; }
     .banner .swiper-slide{ height:350px; overflow:hidden; }
     .banner .swiper-pagination-bullet{ width:6px; height:6px; border-width: 1px; }
     .banner .swiper-pagination{ bottom: 10px; }
-    
-    .index1{ padding:30px 0 50px; background-position:right center; }
+    .banner .text{ width:80%; }
+
+    .index1{ padding:30px 0 0px; background-position:right center; }
     .index1Title{ height:40px; line-height: 40px; }
     .index1Title h2{ font-size: 18px; }
     .index1Title h2 span,.index1Title a{ font-size: 12px; }
@@ -319,6 +320,7 @@ a:hover{ color:#0658b3; }
     .indexNewsConL_zhu h3{ font-size: 16px; }
     .indexNewsConL_zhu .more,.indexNewsConL li span{ font-size: 12px; }
     .indexNewsConL ul{ padding:10px 0; }
+    .indexLectureCon ul{ padding-bottom: 50px; }
     .indexNewsConL li{ padding:0 0 0 20px; }
     .indexNewsConL li a{ width:75%; font-size: 12px; }
     .indexNewsConL li::before{ left:0; }
@@ -330,17 +332,18 @@ a:hover{ color:#0658b3; }
 
 
     .indexLecture .title{ width:100%; height:auto; }
-    .indexLectureCon{ width:100%; height:auto; }
-    .indexLectureCon .box{ padding:12px 10px; }
+    .indexLectureCon{ width:100%; height:auto; background:none; }
+    .indexLectureCon .box{ padding:12px 0px 0; }
     .indexLectureCon .text h2{ font-size: 16px; line-height: 32px; }
     .indexLectureCon .text .nr{ font-size: 12px; }
-    .indexLectureCon li{ width:28%; height:auto; padding:10px 2%; margin:0 2% 0 0; }
+    .indexLectureCon li{ width:28%; height:auto; padding:10px 2%; margin:0 2% 0 0; background:rgba(255,255,255,0.9); box-shadow: 0 0 10px rgba(7,1,2,0.18); }
+
     .indexLectureCon li:nth-child(3){ margin-right: 0; }
-    .indexLectureCon li:nth-child(2n){ margin:0 2% 0 0; }
+    .indexLectureCon li:nth-child(2n){ margin:0 2% 0 0; background:rgba(255,255,255,0.9); }
     .indexLectureCon li .go{ width:20px; height:20px; }
     .indexLectureCon li h3{ font-size: 14px; line-height: 18px; height:36px; }
     .indexLectureCon li p{ margin:10px 0; padding:0; }
-    .index2{ padding:35px 0; }
+    .index2{ padding:45px 0; }
     .index2 .picList .liBox, .index2 .ggSlide .liBox{ padding:20px; }
     .index2 .picList h3, .index2 .ggSlide h3{ font-size: 16px; line-height: 20px; max-height: 40px; }
     .index2 .picList img, .index2 .ggSlide img{ width:50px; height:50px; margin-left: -25px; bottom:-25px; }
@@ -349,7 +352,7 @@ a:hover{ color:#0658b3; }
     .index2 .picList .liBox, .index2 .ggSlide .liBox{ height:135px; }
     
     .index3{ padding-bottom: 50px; }
-    .indexTeam{ padding:30px 0; }
+    .indexTeam{ padding:50px 0 45px; }
     .indexTeam .pic{ width:100%; height:auto; }
 
     .indexTeam .text{ width:100%; }
@@ -375,7 +378,7 @@ a:hover{ color:#0658b3; }
     .teamManage{ padding:40px 0 0; }
     .teamManage li{ padding:15px 10px 15px 70px; background-position: 18px center; }
     
-    .index4{ padding:45px 0 30px; }
+    .index4{ padding:35px 0 30px; }
 
     .index5{ padding:30px 0; }
     .index5 li{ width:49%; height:54px; margin:0 2% 5px 0; }
