@@ -308,7 +308,7 @@ a:hover{ color:#0658b3; }
     .banner .swiper-pagination{ bottom: 10px; }
     .banner .text{ width:80%; }
 
-    .index1{ padding:30px 0 0px; background-position:right center; background-image: url(../images/index1BgM.jpg); background-size: 100% auto; }
+    .index1{ padding:30px 0 0px; background-position:right center; background-image: url(../images/index1BgM.jpg); background-size: 100% auto; background-position: center 60px; }
     .index1Title{ height:40px; line-height: 40px; }
     .index1Title h2{ font-size: 18px; }
     .index1Title h2 span,.index1Title a{ font-size: 12px; }
