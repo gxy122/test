@@ -112,7 +112,7 @@ body{ background:url(../images/bg.jpg); }
 
 
 @media only screen and (max-width: 479px) {
-    .topBg{ display:none; }
+    .topBg,.crumbs{ display:none; }
     .tKong{ height:60px; }
     
     .newsCom{ padding-bottom: 30px; }
@@ -143,9 +143,9 @@ body{ background:url(../images/bg.jpg); }
 
     .pageForm{ display:none; }
 
-    .xqTtitle{ font-size: 14px; }
-    .xqTtitle h3{ font-size: 20px; line-height: 28px; margin: 10px 0; }
-    .newsXqCon{ padding:20px 0 0; font-size: 14px; line-height: 26px; }
+    .xqTtitle{ font-size: 16px; }
+    .xqTtitle h3{ font-size: 22px; line-height: 30px; margin: 10px 0; }
+    .newsXqCon{ padding:20px 0 0; font-size: 16px; line-height: 28px; }
 
     .coreMembersLeft{ display:none; }
     .coreMembersRightTitle h3{ height:32px; font-size: 18px; }
