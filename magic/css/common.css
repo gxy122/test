@@ -239,7 +239,7 @@ a:hover{ color:#0658b3; }
 .footer .line a:hover{ color:#fff; text-decoration: underline; }
 
 .foot{ padding:35px 0 30px; }
-.footLogo{ width:490px; height:70px; overflow: hidden; }
+.footLogo{ width:475px; height:39px; overflow: hidden; }
 .footLogo img{ width:100%; display:block; }
 .foot .nr{ font-size: 14px; color:#fff; line-height: 26px; padding:4px 0 8px; margin:0 0 0 35px; padding:0 0 0 30px; border-left:1px solid #6c6c6c; }
 .footEwm{ width:92px; height:92px; overflow: hidden; }
