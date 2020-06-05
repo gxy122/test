@@ -368,6 +368,8 @@ a:hover{ color:#0658b3; }
 
     .indexTopic ul{ height:auto; position: static; }
     .indexTopic li{ position: relative; width:auto; height:auto; top:0; left:0; }
+
+    .indexTopic li.li2,.indexTopic li.li3,.indexTopic li.li4,.indexTopic li.li5{ top:0; left:0; }
     .indexTopic{ height:auto; }
     .indexTopic .title{ width:auto; padding:0 0 10px; height:auto; box-shadow: none; background:none; }
     .indexTopic .title h3{font-size: 18px; line-height: 18px; height:20px; }
