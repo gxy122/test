@@ -125,7 +125,7 @@ body{ background:url(../images/bg.jpg); }
     .newsLeft .listCon .liDateBox{ left:-72px; }
     .newsLeft .listCon .liDateBox{ font-size: 12px; width:46px; }
     .newsLeft .listCon .liDateBox h5{ font-size: 18px; }
-    .newsLeft .listCon li{ padding-left: 12px; }
+    .newsLeft .listCon li{ padding-left: 12px; margin:0 0 25px; }
     .newsLeft .listCon .liDateBox h5::before{ right:-27px; top:10px; }
     .newsLeft .listCon .liDateBox h5::after{ height:14px; width:14px; right:-32px; }
     .newsLeft .listCon h3{ font-size: 16px; height:auto; max-height:44px; white-space: inherit; line-height: 22px; top:-8px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
